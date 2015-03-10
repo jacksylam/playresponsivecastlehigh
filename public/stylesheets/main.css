@@ -1,3 +1,60 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+  font-family: "Open Sans", sans-serif;
+  color: #999;
+  background-color: #999;
+}
+
+.page-content {
+  padding:20px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.header-image{
+  background-image: url("../images/header.jpg");
+  height: 180px;
+  background-size: cover;
+}
+
+.navbar-inverse{
+  color: #999;
+  background-color: #710C0C;
+}
+
+.nav>li>a{
+  font-size: 16px;
+}
+
+.well{
+  background-color: #710C0C;
+  border: 0px;
+}
+
+.well>li{
+  list-style: none;
+}
+
+.well>li>a{
+  color: #999;
+}
+
+.frontpicture{
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+h2{
+  font-size: 24px;
+}
+
+h3{
+  font-size: 18px;
 }
